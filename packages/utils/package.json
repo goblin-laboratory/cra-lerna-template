@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/goblin-laboratory/lerna/issues"
   },
-  "homepage": "https://github.com/goblin-laboratory/lerna#readme"
+  "homepage": "https://github.com/goblin-laboratory/lerna#readme",
+  "dependencies": {
+    "antd": "^3.20.7"
+  }
 }
