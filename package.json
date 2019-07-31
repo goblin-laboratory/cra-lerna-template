@@ -1,0 +1,12 @@
+{
+  "name": "lerna",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/goblin-laboratory/lerna.git",
+  "author": "xiaosong <kunkkaco@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
