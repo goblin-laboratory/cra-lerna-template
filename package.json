@@ -5,22 +5,19 @@
   "repository": "https://github.com/goblin-laboratory/lerna.git",
   "author": "xiaosong <kunkkaco@gmail.com>",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "scripts": {
     "lint": "eslint --ext .js packages --fix",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "cov": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "changelog": "lerna standard-changelog",
-    "pre-version": "npm run changelog",
-    "version": "lerna version"
+    "changelog": "standard-changelog",
+    "v": "./node_modules/.bin/lerna version"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
     "babel-eslint": "^10.0.1",
-    "conventional-changelog": "^3.1.10",
-    "create-react-app": "^3.0.1",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-config-react-app": "^4.0.1",
@@ -42,5 +39,8 @@
       "pre-commit": "npm run lint",
       "pre-push": "npm run test"
     }
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
