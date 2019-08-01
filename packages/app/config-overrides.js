@@ -1,6 +1,8 @@
 /* eslint-disable */
+const path = require('path');
 const {
   override,
+  babelInclude,
   fixBabelImports,
   addLessLoader,
   // addBundleVisualizer ,
@@ -43,6 +45,10 @@ const overrideGenerateSWConfig = (config, env) => {
 module.exports = {
   webpack: override(
     overrideGenerateSWConfig,
+    babelInclude([
+      path.resolve('src'), // don't forget this
+      path.resolve('../components/lib'),
+    ]),
     fixBabelImports('import', {
       libraryName: 'antd',
       libraryDirectory: 'es',
