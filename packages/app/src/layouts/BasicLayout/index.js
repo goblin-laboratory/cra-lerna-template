@@ -1,11 +1,8 @@
 import React from 'react';
 import { Switch, Redirect, Route } from 'dva/router';
-import Loading from '../../routes/App/Loading';
-import Dashboard from '../../routes/App/Dashboard';
+import Loading from 'components/lib/Loading';
+import Dashboard from '../../routes/Dashboard';
 import styles from './index.module.less';
-
-// const Loading = React.lazy(() => import('../../routes/App/Loading'));
-// const Dashboard = React.lazy(() => import('../../routes/App/Dashboard'));
 
 const BasicLayout = () => (
   <div className={styles.center}>

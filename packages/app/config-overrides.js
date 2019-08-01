@@ -6,7 +6,6 @@ const {
   // addBundleVisualizer ,
 } = require('customize-cra');
 const paths = require('react-scripts/config/paths');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 
 // paths.servedPath = './';

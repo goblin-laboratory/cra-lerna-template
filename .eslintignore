@@ -1,7 +1,10 @@
-build/*
-dist/*
-node_modules/*
+# build/*
+# dist/*
+# node_modules/*
 
-packages/*/node_modules/*
-packages/*/build/*
-packages/*/dist/*
+build
+dist
+node_modules
+# packages/*/node_modules/*
+# packages/*/build/*
+# packages/*/dist/*

@@ -2,8 +2,33 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import queryString from 'query-string';
 import { Form, Card, Input, Icon, Button, notification } from 'antd';
-import delay from '../../utils/delay';
+import delay from 'utils/lib/delay';
 import styles from './index.module.less';
+
+const getClientUrl = search => {
+  const parsed = queryString.parse(global.location.search);
+  if (parsed.from) {
+    const parsedUrl = queryString.parseUrl(parsed.from);
+    if (parsedUrl && parsedUrl.url) {
+      const stringified = queryString.stringify({ ...parsedUrl.query, ...search });
+      const matched = parsed.from.match(/^[^#]*(#.*)$/);
+      const hash = (matched && matched[1]) || '';
+      return `${parsedUrl.url}?${stringified}${hash}`;
+    }
+  }
+  const stringified = queryString.stringify(search);
+  if ('localhost' === global.location.hostname && global.location.port) {
+    return `${global.location.protocol}//${global.location.hostname}:${parseInt(global.location.port, 10) -
+      1}?${stringified}`;
+  }
+  if (global.location.pathname.match(/^(\/[\w-/]+)?\/login$/)) {
+    return `${global.location.origin}${global.location.pathname.replace(
+      /^(\/[\w-/]+)?\/login$/,
+      '$1/app',
+    )}?${stringified}`;
+  }
+  return `https://goblin-laboratory.github.io/lerna/app?${stringified}`;
+};
 
 const Login = ({ form }) => {
   const [loading, setLoading] = React.useState(false);
@@ -20,16 +45,9 @@ const Login = ({ form }) => {
       setLoading(false);
       return;
     }
-    localStorage.setItem('username', values.username);
-    localStorage.setItem('usertitle', values.usertitle);
     notification.success({ message: '登录成功' });
-    const { from } = queryString.parse(global.location.search);
-    if (from) {
-      global.location.replace(decodeURIComponent(from));
-      return;
-    }
-    const pathname = global.location.pathname.replace(/\/[^/]*$/, '/');
-    global.location.replace(`${global.location.origin}${pathname}`);
+    const clientUrl = getClientUrl({ name: values.username, title: values.usertitle });
+    global.location.replace(clientUrl);
   }, []);
 
   React.useEffect(() => {
