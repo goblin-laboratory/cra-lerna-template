@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/lerna-react-template/login/static/css/main.9c87f457.chunk.css",
+    "main.js": "/lerna-react-template/login/static/js/main.97ab5328.chunk.js",
+    "runtime~main.js": "/lerna-react-template/login/static/js/runtime~main.9864d24a.js",
+    "static/css/2.81dc0970.chunk.css": "/lerna-react-template/login/static/css/2.81dc0970.chunk.css",
+    "static/js/2.0e61efe3.chunk.js": "/lerna-react-template/login/static/js/2.0e61efe3.chunk.js",
+    "index.html": "/lerna-react-template/login/index.html",
+    "precache-manifest.bf79d2da3277838d4375d0aa8dcaf63b.js": "/lerna-react-template/login/precache-manifest.bf79d2da3277838d4375d0aa8dcaf63b.js",
+    "service-worker.js": "/lerna-react-template/login/service-worker.js"
+  }
+}
