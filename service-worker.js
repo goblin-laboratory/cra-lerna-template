@@ -15,7 +15,7 @@ importScripts("/goblin-laboratory/lerna/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/goblin-laboratory/lerna/workbox-v4.3.1"});
 
 importScripts(
-  "/goblin-laboratory/lerna/precache-manifest.2dbc3265774e9e69d33ace6b9e949ee0.js"
+  "/goblin-laboratory/lerna/precache-manifest.c7515b446f19677f66b86155ecc49963.js"
 );
 
 self.addEventListener('message', (event) => {

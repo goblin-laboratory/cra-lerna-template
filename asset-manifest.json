@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/goblin-laboratory/lerna/static/css/main.37eff0ce.chunk.css",
-    "main.js": "/goblin-laboratory/lerna/static/js/main.bde4f6d7.chunk.js",
+    "main.js": "/goblin-laboratory/lerna/static/js/main.8c01b498.chunk.js",
     "runtime~main.js": "/goblin-laboratory/lerna/static/js/runtime~main.cea40256.js",
     "static/css/2.32733c88.chunk.css": "/goblin-laboratory/lerna/static/css/2.32733c88.chunk.css",
     "static/js/2.1f4ef2e8.chunk.js": "/goblin-laboratory/lerna/static/js/2.1f4ef2e8.chunk.js",
     "index.html": "/goblin-laboratory/lerna/index.html",
-    "precache-manifest.2dbc3265774e9e69d33ace6b9e949ee0.js": "/goblin-laboratory/lerna/precache-manifest.2dbc3265774e9e69d33ace6b9e949ee0.js",
+    "precache-manifest.c7515b446f19677f66b86155ecc49963.js": "/goblin-laboratory/lerna/precache-manifest.c7515b446f19677f66b86155ecc49963.js",
     "service-worker.js": "/goblin-laboratory/lerna/service-worker.js"
   }
 }

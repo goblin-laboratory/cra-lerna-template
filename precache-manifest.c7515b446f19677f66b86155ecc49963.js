@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0f849b0e120f04c9a5854ebe8ff82a6",
+    "revision": "ad21955cd6dd78d7b1dde4e647057ef6",
     "url": "/goblin-laboratory/lerna/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goblin-laboratory/lerna/static/css/2.32733c88.chunk.css"
   },
   {
-    "revision": "fbd6209a350ee976053c",
+    "revision": "03fea3bca4f2ddf05b4e",
     "url": "/goblin-laboratory/lerna/static/css/main.37eff0ce.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goblin-laboratory/lerna/static/js/2.1f4ef2e8.chunk.js"
   },
   {
-    "revision": "fbd6209a350ee976053c",
-    "url": "/goblin-laboratory/lerna/static/js/main.bde4f6d7.chunk.js"
+    "revision": "03fea3bca4f2ddf05b4e",
+    "url": "/goblin-laboratory/lerna/static/js/main.8c01b498.chunk.js"
   },
   {
     "revision": "ff35ce1204e6cb3f20bb",
