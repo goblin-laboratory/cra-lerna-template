@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goblin-laboratory/lerna.git"
+    "url": "git+https://github.com/goblin-laboratory/lerna-react-template.git"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -27,9 +27,9 @@
     "deploy": "gh-pages -d build --git git"
   },
   "bugs": {
-    "url": "https://github.com/goblin-laboratory/lerna/issues"
+    "url": "https://github.com/goblin-laboratory/lerna-react-template/issues"
   },
-  "homepage": "https://github.com/goblin-laboratory/lerna#readme",
+  "homepage": "https://github.com/goblin-laboratory/lerna-react-template#readme",
   "dependencies": {
     "ant-design-pro": "^2.3.2",
     "antd": "^3.20.7",

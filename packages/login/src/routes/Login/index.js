@@ -24,7 +24,7 @@ const getClientUrl = search => {
   if (global.location.pathname.match(/^(\/[\w-/]+)?\/login$/)) {
     return `${global.location.origin}${global.location.pathname.replace(/^(\/[\w-/]+)?\/login$/, '$1')}?${stringified}`;
   }
-  return `https://goblin-laboratory.github.io/lerna?${stringified}`;
+  return `https://goblin-laboratory.github.io/lerna-react-template?${stringified}`;
 };
 
 const Login = ({ form }) => {

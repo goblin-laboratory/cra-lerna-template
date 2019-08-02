@@ -37,7 +37,7 @@ const jump2login = () => {
   }
   const pathname = global.location.pathname.replace(/(\/[^/]*)?$/, '/login');
   global.location.replace(`${global.location.origin}${pathname}?${search}`);
-  // global.location.replace(`https://goblin-laboratory.github.io/lerna/login?${search}`);
+  // global.location.replace(`https://goblin-laboratory.github.io/lerna-react-template/login?${search}`);
 };
 
 export default {
