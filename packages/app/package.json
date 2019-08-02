@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "xiaosong <kunkkaco@gmail.com>",
@@ -33,7 +33,7 @@
   "dependencies": {
     "ant-design-pro": "^2.3.2",
     "antd": "^3.20.7",
-    "components": "^0.1.0",
+    "components": "^0.2.0",
     "dva": "^2.4.1",
     "dva-loading": "^3.0.12",
     "prop-types": "^15.7.2",
@@ -41,7 +41,7 @@
     "react": "^16.8.6",
     "react-app-polyfill": "^1.0.1",
     "react-dom": "^16.8.6",
-    "utils": "^0.1.2"
+    "utils": "^0.2.0"
   },
   "devDependencies": {
     "babel-plugin-import": "^1.12.0",
