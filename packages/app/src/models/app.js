@@ -2,13 +2,42 @@ import { routerRedux } from 'dva/router';
 import queryString from 'query-string';
 import showModal from 'utils/lib/showModal';
 import delay from 'utils/lib/delay';
+import replaceState from 'utils/lib/replaceState';
 
 const loadingPagePathname = '/';
 
+const getUserInfo = () => {
+  const { name, title, ...parsed } = queryString.parse(global.location.search);
+  replaceState(parsed);
+  if (name && title) {
+    localStorage.setItem('username', name);
+    localStorage.setItem('usertitle', title);
+    return { username: name, usertitle: title };
+  }
+  const info = {
+    username: localStorage.getItem('username'),
+    usertitle: localStorage.getItem('usertitle'),
+  };
+  if (info.username && info.usertitle) {
+    return info;
+  }
+  localStorage.removeItem('username');
+  localStorage.removeItem('usertitle');
+  return null;
+};
+
 const jump2login = () => {
-  const pathname = global.location.pathname.replace(/\/[^/]*$/, '/login.html');
   const search = queryString.stringify({ from: global.location.href });
+  // 本地测试环境
+  if ('localhost' === global.location.hostname && global.location.port) {
+    global.location.replace(
+      `${global.location.protocol}//${global.location.hostname}:${parseInt(global.location.port, 10) + 1}?${search}`,
+    );
+    return;
+  }
+  const pathname = global.location.pathname.replace(/(\/[^/]*)?$/, '/login');
   global.location.replace(`${global.location.origin}${pathname}?${search}`);
+  // global.location.replace(`https://goblin-laboratory.github.io/lerna/login?${search}`);
 };
 
 export default {
@@ -40,13 +69,12 @@ export default {
     },
     *load({ payload }, { put, call }) {
       yield call(delay, 3000);
-      const username = localStorage.getItem('username');
-      const usertitle = localStorage.getItem('usertitle');
-      if (!usertitle) {
+      const userInfo = getUserInfo();
+      if (!userInfo) {
         yield put({ type: 'loginFaild' });
         return;
       }
-      yield put({ type: 'save', payload: { userInfo: { username, usertitle } } });
+      yield put({ type: 'save', payload: { userInfo } });
       const { pathname, ...parsed } = queryString.parse(payload);
       const search = queryString.stringify(parsed);
       yield put(routerRedux.replace({ pathname, search }));
