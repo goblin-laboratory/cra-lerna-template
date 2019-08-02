@@ -11,11 +11,11 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("/goblin-laboratory/lerna/workbox-v4.3.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "/goblin-laboratory/lerna/workbox-v4.3.1"});
+importScripts("/lerna/login/workbox-v4.3.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/lerna/login/workbox-v4.3.1"});
 
 importScripts(
-  "/goblin-laboratory/lerna/precache-manifest.a8a906cddb31945173c6dc8077c60919.js"
+  "/lerna/login/precache-manifest.cda829000d87165ef84ce77a866a6d4a.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -34,7 +34,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/goblin-laboratory/lerna//index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/lerna/login//index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/goblin-laboratory/lerna/static/css/main.9c87f457.chunk.css",
-    "main.js": "/goblin-laboratory/lerna/static/js/main.cf2d0636.chunk.js",
-    "runtime~main.js": "/goblin-laboratory/lerna/static/js/runtime~main.cea40256.js",
-    "static/css/2.81dc0970.chunk.css": "/goblin-laboratory/lerna/static/css/2.81dc0970.chunk.css",
-    "static/js/2.e23f6cff.chunk.js": "/goblin-laboratory/lerna/static/js/2.e23f6cff.chunk.js",
-    "index.html": "/goblin-laboratory/lerna/index.html",
-    "precache-manifest.a8a906cddb31945173c6dc8077c60919.js": "/goblin-laboratory/lerna/precache-manifest.a8a906cddb31945173c6dc8077c60919.js",
-    "service-worker.js": "/goblin-laboratory/lerna/service-worker.js"
+    "main.css": "/lerna/login/static/css/main.9c87f457.chunk.css",
+    "main.js": "/lerna/login/static/js/main.c7f5dd34.chunk.js",
+    "runtime~main.js": "/lerna/login/static/js/runtime~main.9a79c499.js",
+    "static/css/2.81dc0970.chunk.css": "/lerna/login/static/css/2.81dc0970.chunk.css",
+    "static/js/2.a6f15664.chunk.js": "/lerna/login/static/js/2.a6f15664.chunk.js",
+    "index.html": "/lerna/login/index.html",
+    "precache-manifest.cda829000d87165ef84ce77a866a6d4a.js": "/lerna/login/precache-manifest.cda829000d87165ef84ce77a866a6d4a.js",
+    "service-worker.js": "/lerna/login/service-worker.js"
   }
 }
