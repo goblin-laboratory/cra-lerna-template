@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/goblin-laboratory/lerna-react-template/issues"
   },
-  "homepage": "https://github.com/goblin-laboratory/lerna-react-template#readme",
+  "homepage": "https://goblin-laboratory.github.io/lerna-react-template",
   "dependencies": {
     "ant-design-pro": "^2.3.2",
     "antd": "^3.20.7",
