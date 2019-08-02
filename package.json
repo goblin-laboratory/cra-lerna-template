@@ -11,9 +11,7 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "cov": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "changelog": "standard-changelog",
-    "v": "lerna run version",
-    "bootstrap": "lerna bootstrap --use-workspaces",
+    "bootstrap": "lerna bootstrap",
     "start": "lerna run start",
     "build": "lerna run build",
     "deploy": "lerna run deploy"
@@ -31,8 +29,7 @@
     "husky": "^3.0.2",
     "lerna": "^3.16.4",
     "prettier": "^1.18.2",
-    "react-scripts": "^3.0.1",
-    "standard-changelog": "^2.0.13"
+    "react-scripts": "^3.0.1"
   },
   "husky": {
     "hooks": {

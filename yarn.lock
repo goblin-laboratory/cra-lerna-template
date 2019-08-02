@@ -2753,11 +2753,6 @@ add-dom-event-listener@^1.1.0:
   dependencies:
     object-assign "4.x"
 
-add-stream@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/add-stream/download/add-stream-1.0.0.tgz#6a7990437ca736d5e1288db92bd3266d5f5cb2aa"
-  integrity sha1-anmQQ3ynNtXhKI25K9MmbV9csqo=
-
 address@1.0.3:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/address/download/address-1.0.3.tgz#b5f50631f8d6cec8bd20c963963afb55e06cbce9"
@@ -4291,31 +4286,12 @@ conventional-changelog-core@^3.1.6:
     read-pkg-up "^3.0.0"
     through2 "^3.0.0"
 
-conventional-changelog-core@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/conventional-changelog-core/download/conventional-changelog-core-4.0.0.tgz#a9e83889e43a21b05fa098a507cad475905a0439"
-  integrity sha1-qeg4ieQ6IbBfoJilB8rUdZBaBDk=
-  dependencies:
-    conventional-changelog-writer "^4.0.7"
-    conventional-commits-parser "^3.0.3"
-    dateformat "^3.0.0"
-    get-pkg-repo "^1.0.0"
-    git-raw-commits "2.0.0"
-    git-remote-origin-url "^2.0.0"
-    git-semver-tags "^3.0.0"
-    lodash "^4.2.1"
-    normalize-package-data "^2.3.5"
-    q "^1.5.1"
-    read-pkg "^3.0.0"
-    read-pkg-up "^3.0.0"
-    through2 "^3.0.0"
-
 conventional-changelog-preset-loader@^2.1.1:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/conventional-changelog-preset-loader/download/conventional-changelog-preset-loader-2.2.0.tgz#571e2b3d7b53d65587bea9eedf6e37faa5db4fcc"
   integrity sha1-Vx4rPXtT1lWHvqnu3243+qXbT8w=
 
-conventional-changelog-writer@^4.0.6, conventional-changelog-writer@^4.0.7:
+conventional-changelog-writer@^4.0.6:
   version "4.0.7"
   resolved "https://registry.npm.taobao.org/conventional-changelog-writer/download/conventional-changelog-writer-4.0.7.tgz#e4b7d9cbea902394ad671f67108a71fa90c7095f"
   integrity sha1-5LfZy+qQI5StZx9nEIpx+pDHCV8=
@@ -6115,13 +6091,6 @@ figures@^2.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-figures@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/figures/download/figures-3.0.0.tgz#756275c964646163cc6f9197c7a0295dbfd04de9"
-  integrity sha1-dWJ1yWRkYWPMb5GXx6ApXb/QTek=
-  dependencies:
-    escape-string-regexp "^1.0.5"
-
 file-entry-cache@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npm.taobao.org/file-entry-cache/download/file-entry-cache-5.0.1.tgz#ca0f6efa6dd3d561333fb14515065c2fafdf439c"
@@ -6364,13 +6333,6 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-access@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/fs-access/download/fs-access-1.0.1.tgz#d6a87f262271cefebec30c553407fb995da8777a"
-  integrity sha1-1qh/JiJxzv6+wwxVNAf7mV2od3o=
-  dependencies:
-    null-check "^1.0.0"
-
 fs-extra@7.0.1, fs-extra@^7.0.0:
   version "7.0.1"
   resolved "https://registry.npm.taobao.org/fs-extra/download/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
@@ -6570,14 +6532,6 @@ git-semver-tags@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/git-semver-tags/download/git-semver-tags-2.0.3.tgz#48988a718acf593800f99622a952a77c405bfa34"
   integrity sha1-SJiKcYrPWTgA+ZYiqVKnfEBb+jQ=
-  dependencies:
-    meow "^4.0.0"
-    semver "^6.0.0"
-
-git-semver-tags@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/git-semver-tags/download/git-semver-tags-3.0.0.tgz#fe10147824657662c82efd9341f0fa59f74ddcba"
-  integrity sha1-/hAUeCRldmLILv2TQfD6WfdN3Lo=
   dependencies:
     meow "^4.0.0"
     semver "^6.0.0"
@@ -9525,11 +9479,6 @@ nth-check@^1.0.2, nth-check@~1.0.1:
   integrity sha1-sr0pXDfj3VijvwcAN2Zjuk2c8Fw=
   dependencies:
     boolbase "~1.0.0"
-
-null-check@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/null-check/download/null-check-1.0.0.tgz#977dffd7176012b9ec30d2a39db5cf72a0439edd"
-  integrity sha1-l33/1xdgErnsMNKjnbXPcqBDnt0=
 
 num2fraction@^1.2.2:
   version "1.2.2"
@@ -12939,11 +12888,6 @@ split@^1.0.0:
   dependencies:
     through "2"
 
-sprintf-js@^1.1.1:
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/sprintf-js/download/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
-  integrity sha1-2hdlJiv4wPVxdJ8q1sJjACB65nM=
-
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/sprintf-js/download/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
@@ -12980,23 +12924,6 @@ stack-utils@^1.0.1:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/stack-utils/download/stack-utils-1.0.2.tgz#33eba3897788558bebfc2db059dc158ec36cebb8"
   integrity sha1-M+ujiXeIVYvr/C2wWdwVjsNs67g=
-
-standard-changelog@^2.0.13:
-  version "2.0.13"
-  resolved "https://registry.npm.taobao.org/standard-changelog/download/standard-changelog-2.0.13.tgz#9dcd64284cb8611eafa8759a2c2fcc00b5c80747"
-  integrity sha1-nc1kKEy4YR6vqHWaLC/MALXIB0c=
-  dependencies:
-    add-stream "^1.0.0"
-    chalk "^2.0.0"
-    conventional-changelog-angular "^5.0.3"
-    conventional-changelog-core "^4.0.0"
-    figures "^3.0.0"
-    fs-access "^1.0.0"
-    lodash "^4.2.1"
-    meow "^4.0.0"
-    rimraf "^2.5.2"
-    sprintf-js "^1.1.1"
-    tempfile "^1.1.1"
 
 static-extend@^0.1.1:
   version "0.1.2"
@@ -13346,14 +13273,6 @@ temp-write@^3.4.0:
     pify "^3.0.0"
     temp-dir "^1.0.0"
     uuid "^3.0.1"
-
-tempfile@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npm.taobao.org/tempfile/download/tempfile-1.1.1.tgz#5bcc4eaecc4ab2c707d8bc11d99ccc9a2cb287f2"
-  integrity sha1-W8xOrsxKsscH2LwR2ZzMmiyyh/I=
-  dependencies:
-    os-tmpdir "^1.0.0"
-    uuid "^2.0.1"
 
 terser-webpack-plugin@1.2.3:
   version "1.2.3"
@@ -13915,11 +13834,6 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/utils-merge/download/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
-
-uuid@^2.0.1:
-  version "2.0.3"
-  resolved "https://registry.npm.taobao.org/uuid/download/uuid-2.0.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fuuid%2Fdownload%2Fuuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
-  integrity sha1-Z+LoY3lyFVMN/zGOW/nc6/1Hsho=
 
 uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
