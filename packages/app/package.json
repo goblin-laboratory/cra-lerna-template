@@ -22,7 +22,9 @@
     "build": "react-app-rewired build",
     "lint": "eslint --ext .js src",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build --git git"
   },
   "bugs": {
     "url": "https://github.com/goblin-laboratory/lerna/issues"
@@ -44,6 +46,7 @@
   "devDependencies": {
     "babel-plugin-import": "^1.12.0",
     "customize-cra": "^0.4.1",
+    "gh-pages": "^2.1.0",
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "react-app-rewired": "^2.1.3",

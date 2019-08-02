@@ -13,7 +13,10 @@
     "cov": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "changelog": "standard-changelog",
     "v": "./node_modules/.bin/lerna version",
-    "bootstrap": "lerna bootstrap --use-workspaces"
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "start": "lerna run start",
+    "build": "lerna run build",
+    "deploy": "lerna run deploy"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
