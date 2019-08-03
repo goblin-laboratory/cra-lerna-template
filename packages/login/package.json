@@ -1,6 +1,6 @@
 {
   "name": "login",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "xiaosong <kunkkaco@gmail.com>",
@@ -43,7 +43,7 @@
     "utils": "^0.2.0"
   },
   "devDependencies": {
-    "app": "^0.2.0",
+    "app": "^0.2.1",
     "babel-plugin-import": "^1.12.0",
     "customize-cra": "^0.2.14",
     "gh-pages": "^2.1.0",
