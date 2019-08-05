@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/cra-lerna-template/app/login/static/css/main.9c87f457.chunk.css",
+    "main.js": "/cra-lerna-template/app/login/static/js/main.70d200d7.chunk.js",
+    "runtime~main.js": "/cra-lerna-template/app/login/static/js/runtime~main.51e79cf3.js",
+    "static/css/2.81dc0970.chunk.css": "/cra-lerna-template/app/login/static/css/2.81dc0970.chunk.css",
+    "static/js/2.380491cb.chunk.js": "/cra-lerna-template/app/login/static/js/2.380491cb.chunk.js",
+    "index.html": "/cra-lerna-template/app/login/index.html",
+    "precache-manifest.9cf700e35a4ab90fab812f09bd5bda08.js": "/cra-lerna-template/app/login/precache-manifest.9cf700e35a4ab90fab812f09bd5bda08.js",
+    "service-worker.js": "/cra-lerna-template/app/login/service-worker.js"
+  }
+}
