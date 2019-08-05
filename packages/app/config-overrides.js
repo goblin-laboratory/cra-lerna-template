@@ -48,6 +48,7 @@ module.exports = {
     babelInclude([
       path.resolve('src'), // don't forget this
       path.resolve('../components/lib'),
+      path.resolve('../utils/lib/showModal'),
     ]),
     fixBabelImports('import', {
       libraryName: 'antd',
