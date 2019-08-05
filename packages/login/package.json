@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/goblin-laboratory/cra-lerna-template/issues"
   },
-  "homepage": "https://goblin-laboratory.github.io/cra-lerna-template/login",
+  "homepage": "https://goblin-laboratory.github.io/cra-lerna-template/login/",
   "dependencies": {
     "ant-design-pro": "^2.3.2",
     "antd": "^3.20.7",

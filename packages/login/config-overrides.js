@@ -28,14 +28,14 @@ const overrideGenerateSWConfig = (config, env) => {
     clientsClaim: true,
     exclude: [/\.map$/, /asset-manifest\.json$/],
     importWorkboxFrom: 'local',
-    navigateFallback: paths.servedPath + '/index.html',
-    navigateFallbackBlacklist: [
-      // Exclude URLs starting with /_, as they're likely an API call
-      new RegExp('^/_'),
-      // Exclude URLs containing a dot, as they're likely a resource in
-      // public/ and not a SPA route
-      new RegExp('/[^/]+\\.[^/]+$'),
-    ],
+    // navigateFallback: paths.servedPath + '/index.html',
+    // navigateFallbackBlacklist: [
+    //   // Exclude URLs starting with /_, as they're likely an API call
+    //   new RegExp('^/_'),
+    //   // Exclude URLs containing a dot, as they're likely a resource in
+    //   // public/ and not a SPA route
+    //   new RegExp('/[^/]+\\.[^/]+$'),
+    // ],
   });
   config.plugins.push(workboxWebpackPlugin);
   return config;
