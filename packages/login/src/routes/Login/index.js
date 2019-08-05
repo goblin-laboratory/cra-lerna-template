@@ -21,10 +21,13 @@ const getClientUrl = search => {
     return `${global.location.protocol}//${global.location.hostname}:${parseInt(global.location.port, 10) -
       1}?${stringified}`;
   }
-  if (global.location.pathname.match(/^(\/[\w-/]+)?\/login$/)) {
-    return `${global.location.origin}${global.location.pathname.replace(/^(\/[\w-/]+)?\/login$/, '$1')}?${stringified}`;
+  if (global.location.pathname.match(/^(\/[\w-/]+)?\/login\/[\w-/]*$/)) {
+    return `${global.location.origin}${global.location.pathname.replace(
+      /^(\/[\w-/]+)?\/login\/[\w-/]*$/,
+      '$1',
+    )}?${stringified}`;
   }
-  return `https://goblin-laboratory.github.io/lerna-react-template?${stringified}`;
+  return `https://goblin-laboratory.github.io/cra-lerna-template/?${stringified}`;
 };
 
 const Login = ({ form }) => {

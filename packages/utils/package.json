@@ -15,15 +15,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goblin-laboratory/lerna-react-template.git"
+    "url": "git+https://github.com/goblin-laboratory/cra-lerna-template.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/goblin-laboratory/lerna-react-template/issues"
+    "url": "https://github.com/goblin-laboratory/cra-lerna-template/issues"
   },
-  "homepage": "https://github.com/goblin-laboratory/lerna-react-template#readme",
+  "homepage": "https://github.com/goblin-laboratory/cra-lerna-template#readme",
   "dependencies": {
     "antd": "^3.20.7",
     "query-string": "^6.8.2"
