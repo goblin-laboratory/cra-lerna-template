@@ -15,7 +15,7 @@ importScripts("/cra-lerna-template/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/cra-lerna-template/workbox-v4.3.1"});
 
 importScripts(
-  "/cra-lerna-template/precache-manifest.2e1032b69bc1ebc0dd9159607f52f45c.js"
+  "/cra-lerna-template/precache-manifest.73ee8bd3d563cbbc535f7d89af2e8591.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -36,5 +36,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/cra-lerna-template//index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
+  blacklist: [],
 });

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fab219fcdb53957064b34e1023675d63",
+    "revision": "2d6b2783c23c9feaa4d6150ab6116fd0",
     "url": "/cra-lerna-template/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cra-lerna-template/static/css/2.e4a195b8.chunk.css"
   },
   {
-    "revision": "07ea5e640a16d14cb7d1",
+    "revision": "0d82c9277030a923c1fa",
     "url": "/cra-lerna-template/static/css/main.37eff0ce.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cra-lerna-template/static/js/2.e0bd6629.chunk.js"
   },
   {
-    "revision": "07ea5e640a16d14cb7d1",
-    "url": "/cra-lerna-template/static/js/main.e6212d49.chunk.js"
+    "revision": "0d82c9277030a923c1fa",
+    "url": "/cra-lerna-template/static/js/main.12003e74.chunk.js"
   },
   {
     "revision": "2c89b7bb9c1416cba7ee",
