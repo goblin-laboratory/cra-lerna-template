@@ -3,7 +3,7 @@ const {
   override,
   fixBabelImports,
   addLessLoader,
-  // addBundleVisualizer ,
+  // addBundleVisualizer,
 } = require('customize-cra');
 const paths = require('react-scripts/config/paths');
 // const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -49,15 +49,15 @@ module.exports = {
       libraryDirectory: 'es',
       style: true,
     }),
-    fixBabelImports('ant-design-pro', {
-      libraryName: 'ant-design-pro',
-      libraryDirectory: 'lib',
-      style: true,
-      camel2DashComponentName: false,
-    }),
+    // fixBabelImports('ant-design-pro', {
+    //   libraryName: 'ant-design-pro',
+    //   libraryDirectory: 'lib',
+    //   style: true,
+    //   camel2DashComponentName: false,
+    // }),
     addLessLoader({
       javascriptEnabled: true,
-      localIdentName: '[local]--[hash:base64:5]',
+      // localIdentName: '[local]--[hash:base64:5]',
       // modifyVars: { '@primary-color': '#1DA57A' },
     }),
     // addBundleVisualizer(),

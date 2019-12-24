@@ -2,7 +2,7 @@ import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 import dva from 'dva';
 // import { hashHistory } from 'dva/router';
-import createLoading from 'dva-loading';
+// import createLoading from 'dva-loading';
 // import { createLogger } from 'redux-logger';
 import * as serviceWorker from './serviceWorker';
 import './index.module.less';
@@ -14,7 +14,7 @@ const app = dva({
 
 // 2. Plugins
 // app.use({});
-app.use(createLoading());
+// app.use(createLoading());
 
 // 3. Register global model
 app.model(require('./models/app').default);

@@ -18,19 +18,19 @@
     "changelog": "lerna version --conventional-commits"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-conventional": "^8.0.0",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-config-standard": "^13.0.1",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "husky": "^3.0.2",
-    "lerna": "^3.16.4",
-    "prettier": "^1.18.2",
-    "react-scripts": "^3.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.1.0",
+    "lerna": "^3.19.0",
+    "prettier": "^1.19.1",
+    "react-scripts": "^3.3.0"
   },
   "husky": {
     "hooks": {
