@@ -32,7 +32,7 @@
   "homepage": "https://goblin-laboratory.github.io/cra-lerna-template/",
   "dependencies": {
     "ant-design-pro": "^2.3.2",
-    "antd": "^3.20.7",
+    "antd": "^4.1.1",
     "components": "^0.3.0",
     "dva": "^2.4.1",
     "dva-loading": "^3.0.12",
