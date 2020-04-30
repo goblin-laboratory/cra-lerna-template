@@ -6,7 +6,7 @@ import { UserOutlined, IdcardOutlined, KeyOutlined } from '@ant-design/icons';
 import delay from 'utils/lib/delay';
 import styles from './index.module.less';
 
-const getClientUrl = search => {
+const getClientUrl = (search) => {
   const parsed = queryString.parse(global.location.search);
   if (parsed.from) {
     const parsedUrl = queryString.parseUrl(parsed.from);
@@ -19,8 +19,9 @@ const getClientUrl = search => {
   }
   const stringified = queryString.stringify(search);
   if ('localhost' === global.location.hostname && global.location.port) {
-    return `${global.location.protocol}//${global.location.hostname}:${parseInt(global.location.port, 10) -
-      1}?${stringified}`;
+    return `${global.location.protocol}//${global.location.hostname}:${
+      parseInt(global.location.port, 10) - 1
+    }?${stringified}`;
   }
   if (global.location.pathname.match(/^(\/[\w-/]+)?\/login\/[\w-/]*$/)) {
     return `${global.location.origin}${global.location.pathname.replace(
@@ -35,7 +36,7 @@ const Login = () => {
   const [loading, setLoading] = React.useState(false);
   const unmoutedRef = React.useRef(false);
 
-  const onSubmit = React.useCallback(async values => {
+  const onSubmit = React.useCallback(async (values) => {
     setLoading(true);
     await delay(1000);
     if (!unmoutedRef || unmoutedRef.current) {

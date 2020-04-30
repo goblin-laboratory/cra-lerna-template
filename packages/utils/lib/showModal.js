@@ -2,7 +2,7 @@ import { Modal } from 'antd';
 
 const showModal = (type, opts) => {
   let modal = null;
-  const promise = new Promise(resolve => {
+  const promise = new Promise((resolve) => {
     modal = Modal[type]({
       ...opts,
       onOk: () => resolve(true),

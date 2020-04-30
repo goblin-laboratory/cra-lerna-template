@@ -10,7 +10,7 @@ const RouterConfig = ({ history, app }) => (
   <ConfigProvider locale={zhCN}>
     <Router history={history}>
       <Switch>
-        <Route path="(.*)" render={props => <BasicLayout {...props} app={app} />} />
+        <Route path="(.*)" render={(props) => <BasicLayout {...props} app={app} />} />
       </Switch>
     </Router>
   </ConfigProvider>

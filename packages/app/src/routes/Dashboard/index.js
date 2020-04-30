@@ -6,7 +6,7 @@ import styles from './index.module.less';
 
 const Dashboard = () => {
   const dispatch = useDispatch();
-  const { userInfo } = useSelector(state => ({
+  const { userInfo } = useSelector((state) => ({
     userInfo: state.app.userInfo,
   }));
 
