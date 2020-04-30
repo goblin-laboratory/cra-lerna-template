@@ -1,6 +1,6 @@
 {
   "name": "login",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "xiaosong <kunkkaco@gmail.com>",
@@ -39,10 +39,10 @@
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-dom": "^16.13.1",
-    "utils": "^0.3.0"
+    "utils": "^1.0.0"
   },
   "devDependencies": {
-    "app": "^0.3.0",
+    "app": "^1.0.0",
     "babel-plugin-import": "^1.13.0",
     "customize-cra": "^1.0.0-alpha.0",
     "gh-pages": "^2.2.0",
