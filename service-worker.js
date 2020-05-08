@@ -15,7 +15,7 @@ importScripts("/cra-lerna-template/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/cra-lerna-template/workbox-v4.3.1"});
 
 importScripts(
-  "/cra-lerna-template/precache-manifest.2e1032b69bc1ebc0dd9159607f52f45c.js"
+  "/cra-lerna-template/precache-manifest.be0ccc2c9593271b0361992add430363.js"
 );
 
 self.addEventListener('message', (event) => {
