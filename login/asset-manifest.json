@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cra-lerna-template/login/static/css/main.b29915ec.chunk.css",
+    "main.js": "/cra-lerna-template/login/static/js/main.498242ee.chunk.js",
+    "runtime-main.js": "/cra-lerna-template/login/static/js/runtime-main.2043737c.js",
+    "static/css/2.f756f010.chunk.css": "/cra-lerna-template/login/static/css/2.f756f010.chunk.css",
+    "static/js/2.8d2a1ba7.chunk.js": "/cra-lerna-template/login/static/js/2.8d2a1ba7.chunk.js",
+    "index.html": "/cra-lerna-template/login/index.html",
+    "precache-manifest.df72ff5288f9e6b5c06dae8aefb9e5e4.js": "/cra-lerna-template/login/precache-manifest.df72ff5288f9e6b5c06dae8aefb9e5e4.js",
+    "service-worker.js": "/cra-lerna-template/login/service-worker.js",
+    "static/js/2.8d2a1ba7.chunk.js.LICENSE.txt": "/cra-lerna-template/login/static/js/2.8d2a1ba7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2043737c.js",
+    "static/css/2.f756f010.chunk.css",
+    "static/js/2.8d2a1ba7.chunk.js",
+    "static/css/main.b29915ec.chunk.css",
+    "static/js/main.498242ee.chunk.js"
+  ]
+}
