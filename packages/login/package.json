@@ -50,7 +50,7 @@
     "less-loader": "^6.0.0",
     "react-app-rewired": "^2.1.5",
     "react-scripts": "^3.4.1",
-    "webpack-bundle-analyzer": "^3.7.0"
+    "webpack-bundle-analyzer": "^4.3.0"
   },
   "browserslist": {
     "production": [
