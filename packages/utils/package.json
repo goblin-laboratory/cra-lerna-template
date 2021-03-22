@@ -26,6 +26,6 @@
   "homepage": "https://github.com/goblin-laboratory/cra-lerna-template#readme",
   "dependencies": {
     "antd": "^4.2.0",
-    "query-string": "^6.12.1"
+    "query-string": "^7.0.0"
   }
 }
