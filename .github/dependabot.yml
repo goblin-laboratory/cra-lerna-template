@@ -1,0 +1,42 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: antd
+    versions:
+    - 4.11.1
+    - 4.11.2
+    - 4.12.2
+    - 4.12.3
+    - 4.13.0
+    - 4.13.1
+    - 4.14.0
+    - 4.15.0
+    - 4.15.1
+  - dependency-name: less-loader
+    versions:
+    - 6.2.0
+    - 8.0.0
+    - 8.1.0
+  - dependency-name: query-string
+    versions:
+    - 6.13.8
+    - 6.14.0
+    - 6.14.1
+  - dependency-name: "@ant-design/icons"
+    versions:
+    - 4.4.0
+    - 4.5.0
+  - dependency-name: webpack-bundle-analyzer
+    versions:
+    - 4.4.0
+  - dependency-name: less
+    versions:
+    - 4.1.0
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
